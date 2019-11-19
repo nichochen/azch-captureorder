@@ -14,7 +14,7 @@ spec:
       spec:
         containers:
         - name: captureorder
-          image: axregistry/captureorder:latest
+          image: axregistry.azurecr.io/axregistry/captureorder:latest
           imagePullPolicy: Always
           readinessProbe:
             httpGet:
